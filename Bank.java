@@ -7,7 +7,7 @@ public class Bank {
         String customerName = scanner.nextLine();
         System.out.println("Thank you for creating an account with our bank. Your starting balance is $50.00.");
         double accountBalance = 50.0;
-        System.out.println("Please enter a positive number for a deposit or a negative value for a withdrawl:");
+        System.out.println("Please enter a positive number for a deposit or a negative number for a withdrawl:");
         double withdrawlOrDeposit = scanner.nextDouble();
         accountBalance += withdrawlOrDeposit;
         if(accountBalance < 0.0) {
